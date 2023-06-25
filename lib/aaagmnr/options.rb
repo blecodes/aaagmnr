@@ -11,7 +11,7 @@ module Aaagmnr
 
     private def parse(argv)
       OptionParser.new do |opts|
-        opts.banner = "Usage: anagram [ options ] word..."
+        opts.banner = 'Usage: anagram [ options ] word...'
 
         opts.on("-d", "--dict path", String, "Path to dictionary") do |dict|
           @dictionary = dict
